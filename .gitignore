@@ -218,8 +218,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 # Proyecto - Predicción Depósito Bancario
-data/raw/
-data/processed/
-data/source/
-logs/
-models/*.pkl
+#data/raw/
+#data/processed/
+#data/source/
+#logs/
+#models/*.pkl

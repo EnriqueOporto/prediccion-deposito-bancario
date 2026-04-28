@@ -1,0 +1,35 @@
+{
+    "timestamp": "2026-04-28T15:39:29.270318",
+    "archivo_origen": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\data\\source\\02_bank.csv",
+    "archivo_destino": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\data\\raw\\bank_marketing.csv",
+    "hash_md5_origen": "aa7f248e49edcfb829ca47c2565fa677",
+    "reporte": {
+        "total_registros": 11162,
+        "total_columnas": 17,
+        "valores_nulos": 0,
+        "registros_duplicados": 0,
+        "distribucion_target": {
+            "no": 5873,
+            "yes": 5289
+        },
+        "columnas": [
+            "age",
+            "job",
+            "marital",
+            "education",
+            "default",
+            "balance",
+            "housing",
+            "loan",
+            "contact",
+            "day",
+            "month",
+            "duration",
+            "campaign",
+            "pdays",
+            "previous",
+            "poutcome",
+            "deposit"
+        ]
+    }
+}
