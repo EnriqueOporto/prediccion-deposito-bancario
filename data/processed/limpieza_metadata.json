@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-04-28T15:39:40.407936",
+    "timestamp": "2026-04-30T09:27:55.409379",
     "registros_entrada": 11162,
     "registros_salida": 11162,
     "columnas_salida": [
@@ -59,8 +59,8 @@
         "0": 5873,
         "1": 5289
     },
-    "archivo_salida": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\data\\processed\\bank_clean.csv",
-    "scaler": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\models\\scaler.pkl",
+    "archivo_salida": "C:\\Users\\co-alumno\\Desktop\\prediccion-deposito-bancario\\data\\processed\\bank_clean.csv",
+    "scaler": "C:\\Users\\co-alumno\\Desktop\\prediccion-deposito-bancario\\models\\scaler.pkl",
     "transformaciones_aplicadas": [
         "eliminacion_duplicados",
         "verificacion_nulos",

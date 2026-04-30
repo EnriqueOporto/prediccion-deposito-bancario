@@ -1,7 +1,7 @@
 {
-    "timestamp": "2026-04-28T15:39:29.270318",
-    "archivo_origen": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\data\\source\\02_bank.csv",
-    "archivo_destino": "C:\\Users\\CO-Alumno\\Desktop\\prediccion-deposito-bancario\\data\\raw\\bank_marketing.csv",
+    "timestamp": "2026-04-30T09:27:44.273486",
+    "archivo_origen": "C:\\Users\\co-alumno\\Desktop\\prediccion-deposito-bancario\\data\\source\\02_bank.csv",
+    "archivo_destino": "C:\\Users\\co-alumno\\Desktop\\prediccion-deposito-bancario\\data\\raw\\bank_marketing.csv",
     "hash_md5_origen": "aa7f248e49edcfb829ca47c2565fa677",
     "reporte": {
         "total_registros": 11162,
