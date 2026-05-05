@@ -1,0 +1,4 @@
+python scripts/01_ingesta.py
+python scripts/01_ingesta.py --origen ruta/alternativa.csv
+python scripts/02_limpieza_transformacion.py
+python scripts/02_limpieza_transformacion.py --entrada ruta/raw.csv
