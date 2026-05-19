@@ -3,7 +3,7 @@
 Script 03 - Carga de Datos en MongoDB
 Proyecto: Predicción de Suscripción a Depósito Bancario
 Equipo:   Sebastián Aravena | Enrique Oporto | Alexei Sandoval
-Etapa:    Pipeline - Carga en Base de Datos (Actividad 2.3)
+Etapa:    Pipeline - Carga en Base de Datos
 ========================================================
 
 Descripción:
