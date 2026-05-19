@@ -1,0 +1,22 @@
+{
+    "timestamp": "2026-05-17T14:21:42.268497",
+    "database_mongodb": "prediccion_deposito_bancario",
+    "modo": "reemplazar",
+    "batch_size": 1000,
+    "limite": null,
+    "colecciones_creadas": [
+        "clientes_raw",
+        "clientes_procesado",
+        "feature_engineering",
+        "metricas_dataset",
+        "predicciones"
+    ],
+    "documentos_subidos": {
+        "clientes_raw": 11162,
+        "clientes_procesado": 11162,
+        "feature_engineering": 11162,
+        "metricas_dataset": 1,
+        "predicciones": 1
+    },
+    "total_documentos": 33488
+}
