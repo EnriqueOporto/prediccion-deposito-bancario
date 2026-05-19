@@ -1,5 +1,5 @@
 {
-    "timestamp": "2026-05-17T14:21:42.268497",
+    "timestamp": "2026-05-19T14:56:17.273783",
     "database_mongodb": "prediccion_deposito_bancario",
     "modo": "reemplazar",
     "batch_size": 1000,

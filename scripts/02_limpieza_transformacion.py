@@ -382,7 +382,7 @@ def ejecutar_limpieza(entrada: str = ENTRADA_DEFAULT):
     logger.info(
         "Dataset final: %d registros | %d columnas", len(df), len(df.columns)
     )
-    logger.info("Próxima etapa: ejecutar scripts/03_carga_firebase.py")
+    logger.info("Próxima etapa: ejecutar scripts/03_carga_mongodb.py")
     logger.info("=" * 60)
 
     return df

@@ -1,3 +1,5 @@
+export MONGODB_URI="mongodb+srv://alexi_admin:8LWdpJC0qAF3ffVK@proyecto.ymu9xsg.mongodb.net/?appName=Proyecto"
+
 py scripts/01_ingesta.py
 py scripts/02_limpieza_transformacion.py
 py scripts/03_carga_mongodb.py 
