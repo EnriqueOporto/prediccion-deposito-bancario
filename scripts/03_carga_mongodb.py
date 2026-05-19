@@ -47,7 +47,6 @@ try:
     from dotenv import load_dotenv
     load_dotenv()
 except Exception:
-    # python-dotenv es opcional. Si no está instalado, se usan variables de entorno normales.
     pass
 
 
@@ -82,11 +81,8 @@ DATASET_RAW_PATH    = "data/raw/bank_marketing.csv"
 DATASET_CLEAN_PATH  = "data/processed/bank_clean.csv"
 METADATOS_PATH      = "data/processed/carga_mongodb_metadata.json"
 
-# MongoDB soporta insert_many sin el límite de 500 operaciones por batch de Firestore.
-# De todos modos se usa batch para no cargar demasiada memoria de golpe.
 BATCH_SIZE_DEFAULT = 1000
 
-# Colecciones a crear en MongoDB
 COLECCION_RAW          = "clientes_raw"
 COLECCION_PROCESADO    = "clientes_procesado"
 COLECCION_FEATURES     = "feature_engineering"
@@ -216,7 +212,6 @@ def subir_en_batches(
             resultado = coleccion.insert_many(fragmento, ordered=False)
             subidos += len(resultado.inserted_ids)
         except BulkWriteError as e:
-            # Si el modo es agregar y hay IDs repetidos, se informa y continúa.
             errores = e.details.get("writeErrors", [])
             duplicados = sum(1 for error in errores if error.get("code") == 11000)
             insertados = e.details.get("nInserted", 0)
